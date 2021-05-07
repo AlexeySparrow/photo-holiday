@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ce41219.chunk.css",
-    "main.js": "/static/js/main.9149cd3b.chunk.js",
-    "main.js.map": "/static/js/main.9149cd3b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.38bda5ba.js",
-    "runtime-main.js.map": "/static/js/runtime-main.38bda5ba.js.map",
-    "static/js/2.f407922e.chunk.js": "/static/js/2.f407922e.chunk.js",
-    "static/js/2.f407922e.chunk.js.map": "/static/js/2.f407922e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5ce41219.chunk.css.map": "/static/css/main.5ce41219.chunk.css.map",
-    "static/js/2.f407922e.chunk.js.LICENSE.txt": "/static/js/2.f407922e.chunk.js.LICENSE.txt",
-    "static/media/_fonts.scss": "/static/media/WorkSans-SemiBold.f1e3a3dd.woff"
+    "main.css": "/photo-holiday/static/css/main.1982ccfa.chunk.css",
+    "main.js": "/photo-holiday/static/js/main.9149cd3b.chunk.js",
+    "main.js.map": "/photo-holiday/static/js/main.9149cd3b.chunk.js.map",
+    "runtime-main.js": "/photo-holiday/static/js/runtime-main.382d5a48.js",
+    "runtime-main.js.map": "/photo-holiday/static/js/runtime-main.382d5a48.js.map",
+    "static/js/2.f407922e.chunk.js": "/photo-holiday/static/js/2.f407922e.chunk.js",
+    "static/js/2.f407922e.chunk.js.map": "/photo-holiday/static/js/2.f407922e.chunk.js.map",
+    "index.html": "/photo-holiday/index.html",
+    "static/css/main.1982ccfa.chunk.css.map": "/photo-holiday/static/css/main.1982ccfa.chunk.css.map",
+    "static/js/2.f407922e.chunk.js.LICENSE.txt": "/photo-holiday/static/js/2.f407922e.chunk.js.LICENSE.txt",
+    "static/media/_fonts.scss": "/photo-holiday/static/media/WorkSans-SemiBold.f1e3a3dd.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.38bda5ba.js",
+    "static/js/runtime-main.382d5a48.js",
     "static/js/2.f407922e.chunk.js",
-    "static/css/main.5ce41219.chunk.css",
+    "static/css/main.1982ccfa.chunk.css",
     "static/js/main.9149cd3b.chunk.js"
   ]
 }
