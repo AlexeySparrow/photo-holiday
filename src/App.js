@@ -1,10 +1,17 @@
-import {InfinitySVG} from "./assets/img/svg/InfinitySVG";
-import {MaskSVG} from "./assets/img/svg/MaskSVG";
-import {PhotosSVG} from "./assets/img/svg/PhotosSVG";
-import {NameplateSVG} from "./assets/img/svg/NameplateSVG";
-import {PlaySVG} from "./assets/img/svg/PlaySVG";
+import React, {useEffect, useState} from "react";
+import * as axios from 'axios';
 
 export const App = () => {
+    const [data, setData] = useState('')
+
+    useEffect(()=>{
+        axios.get('http://localhost:3000/data.json')
+            .then (res => {
+                setData(res.data.whyAreWe)
+            })
+    }, [])
+
+
     return (
         <div className='container'>
             <h1><span>123</span> 123</h1>
@@ -19,6 +26,16 @@ export const App = () => {
                 <input type="checkbox" id="check"/>
                 <label htmlFor="check"/>
             </div>
+
+            {
+                data.map(zzz =>
+                    <div>
+                        <p>{zzz.id}</p>
+                        <img src={zzz.icon} alt=""/>
+                        <h2>{zzz.title}</h2>
+                    </div>
+                )
+            }
 
         </div>
     );
