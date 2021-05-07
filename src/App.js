@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import {InfinitySVG} from "./assets/img/svg/InfinitySVG";
+import {MaskSVG} from "./assets/img/svg/MaskSVG";
+import {PhotosSVG} from "./assets/img/svg/PhotosSVG";
+import {NameplateSVG} from "./assets/img/svg/NameplateSVG";
+import {PlaySVG} from "./assets/img/svg/PlaySVG";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+    return (
+        <div className='container'>
+            <h1><span>123</span> 123</h1>
+            <h2>123</h2>
+            <h3>123</h3>
+            <h4>123</h4>
+            <p>123</p>
+            <p className='grey'>123</p>
+            <p className='lightGrey'>123</p>
+
+            <div className="inputCheckbox">
+                <input type="checkbox" id="check"/>
+                <label htmlFor="check"/>
+            </div>
+
+        </div>
+    );
 }
 
-export default App;
+// <div className="inputCheckbox">
+//     <input type="checkbox" id="check"/>
+//     <label htmlFor="check"/>
+// </div>

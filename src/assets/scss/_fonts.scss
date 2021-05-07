@@ -1,0 +1,10 @@
+@import "mixins";
+
+/* fonts */
+@include font(Roboto, Roboto-Bold, 700, normal);
+@include font(RobotoSlab, RobotoSlab-Bold, 700, normal);
+@include font(RobotoSlab, RobotoSlab-Medium, 500, normal);
+@include font(RobotoSlab, RobotoSlab-Regular, 400, normal);
+@include font(WorkSans, WorkSans-Medium, 500, normal);
+@include font(WorkSans, WorkSans-Regular, 400, normal);
+@include font(WorkSans, WorkSans-SemiBold, 600, normal);

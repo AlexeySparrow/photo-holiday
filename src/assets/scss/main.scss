@@ -1,0 +1,107 @@
+@import "variables";
+@import "mixins";
+
+/* main style */
+
+body {
+  font-family: WorkSans, serif;
+  font-weight: 400;
+  line-height: 21px;
+  font-size: 16px;
+  font-style: normal;
+  color: $colorMainText;
+}
+
+h1 {
+  font-family: RobotoSlab, serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 53px;
+
+  span {
+    color: $colorMainElementsAndExcretion;
+  }
+}
+
+h2 {
+  font-family: RobotoSlab, serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+h3 {
+  font-family: WorkSans, serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+h4 {
+  font-family: WorkSans, serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+p {
+  &.grey {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: $colorClassGrey;
+  }
+
+  &.lightGrey {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: $colorClassLightGrey;
+  }
+}
+
+.container {
+  @include size(100%, auto);
+  padding: 0 16px;
+}
+
+.inputCheckbox {
+  label {
+    position: relative;
+
+    &:before {
+      @include size(16px, 16px);
+      content: "";
+      background: url("../img/checkbox-checked.png") center;
+      background-size: contain;
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      transform: scale(0) rotateZ(180deg);
+      transition: all 0.4s cubic-bezier(0.54, 0.01, 0, 1.49);
+    }
+
+    &:after {
+      @include size(15px, 15px);
+      content: "";
+      border: 1px solid $colorMainElementsAndExcretion;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 2px;
+    }
+  }
+
+  input {
+    display: none;
+
+    &:checked + label:before {
+      transform: scale(1) rotateZ(0deg);
+    }
+  }
+}
+
+svg {
+  fill: $colorMainElementsAndExcretion;
+}
