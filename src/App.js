@@ -5,12 +5,13 @@ export const App = () => {
     const [data, setData] = useState('')
 
     useEffect(()=>{
-        axios.get('http://localhost:3000/data.json')
+        axios.get('https://alexeysparrow.github.io/photo-holiday/json/data.json')
             .then (res => {
                 setData(res.data.whyAreWe)
             })
     }, [])
 
+    let a = [...data]
 
     return (
         <div className='container'>
@@ -28,12 +29,12 @@ export const App = () => {
             </div>
 
             {
-                data.map(zzz =>
+                a.map(z=>
                     <div>
-                        <p>{zzz.id}</p>
-                        <img src={zzz.icon} alt=""/>
-                        <h2>{zzz.title}</h2>
+                        <p>{z.title}</p>
+                        <img src={z.icon} alt=""/>
                     </div>
+
                 )
             }
 
