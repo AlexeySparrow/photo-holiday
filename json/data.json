@@ -401,6 +401,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1000,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -556,6 +557,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 200,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -711,6 +713,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 400,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -866,6 +869,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 100,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1021,6 +1025,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1600,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1176,6 +1181,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 700,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1331,6 +1337,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 300,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1486,6 +1493,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 2000,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1641,6 +1649,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1100,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1796,6 +1805,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1800,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -1951,6 +1961,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 500,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2106,6 +2117,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1200,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2261,6 +2273,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1900,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2416,6 +2429,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1400,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2571,6 +2585,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 800,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2726,6 +2741,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1300,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -2881,6 +2897,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 600,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -3036,6 +3053,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1700,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -3191,6 +3209,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 1500,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
@@ -3346,6 +3365,7 @@
         "title": "Фотобудка с ширмой",
         "size": "2м x 1.5м x 2 м",
         "price": 900,
+        "sumPrice": null,
         "gallery": [
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
             "https://alexeysparrow.github.io/photo-holiday/img/photo.jpg",
