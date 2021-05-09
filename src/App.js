@@ -10,10 +10,8 @@ export const App = () => {
 
     return (
         <>
-            <div className='container'>
-                <Header/>
-                <Index/>
-            </div>
+            <Header/>
+            <Index/>
             <Footer/>
         </>
     );

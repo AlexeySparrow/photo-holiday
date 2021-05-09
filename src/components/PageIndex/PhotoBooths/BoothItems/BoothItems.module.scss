@@ -1,0 +1,49 @@
+@import "../../../../assets/scss/mixins";
+@import "../../../../assets/scss/variables";
+
+.boothItem {
+  margin-top: 20px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 16px;
+
+  span {
+    @include size(100%, auto);
+    @include flex(row, space-between, stretch, nowrap);
+
+    p {
+      font-size: 12px;
+    }
+
+    h2 {
+      width: 100%;
+      font-weight: 500;
+    }
+
+    button {
+      margin: 0;
+    }
+  }
+
+  h4 {
+    margin-top: 10px;
+  }
+}
+
+span.boothItem__size {
+  justify-content: flex-start;
+  margin-top: 2px;
+
+  p:last-child {
+    margin-left: 5px;
+  }
+}
+
+span.boothItem__price {
+  margin-top: 20px;
+}
+
+@media (max-width: 376px) {
+  .boothItem {
+    width: 100%;
+  }
+}

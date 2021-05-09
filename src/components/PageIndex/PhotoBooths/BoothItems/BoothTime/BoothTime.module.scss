@@ -1,0 +1,31 @@
+@import "../../../../../assets/scss/mixins";
+@import "../../../../../assets/scss/variables";
+
+.boothTime {
+  @include size(100%, auto);
+  @include flex(row, flex-start, stretch, wrap);
+
+  div {
+    margin: 8px 8px 0;
+
+    &:nth-child(1n) {
+      margin-left: 0;
+    }
+  }
+
+  input[type="radio"] {
+    display: none;
+
+    &:checked + label {
+      background: $colorMainElementsAndExcretion;
+      color: $colorButton;
+    }
+  }
+
+  label {
+    padding: 4px 12px;
+    background: #F1F2F2;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+}

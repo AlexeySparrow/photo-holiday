@@ -9,12 +9,16 @@ import {News} from "../components/PageIndex/News/News";
 export const Index = () => {
     return (
         <>
-            <Video/>
-            <Title/>
-            <WhyWe/>
+            <div className='container'>
+                <Video/>
+                <Title/>
+                <WhyWe/>
+            </div>
             <PhotoBooths/>
-            <Faq/>
-            <News/>
+            <div className='container'>
+                <Faq/>
+                <News/>
+            </div>
         </>
     )
 }

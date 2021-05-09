@@ -17,7 +17,7 @@
 
   .popup__text {
     @include size(100%, 35%);
-    padding: 20px 12px 12px;
+    padding: 10px 12px 12px;
 
     span {
       @include size(100%, auto);

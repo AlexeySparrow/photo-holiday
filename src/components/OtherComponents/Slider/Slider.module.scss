@@ -1,7 +1,7 @@
 @import "../../../assets/scss/mixins";
 
 div.slider {
-  @include size(100%, 65%);
+  width: 100%;
   padding: 0;
 
   img {

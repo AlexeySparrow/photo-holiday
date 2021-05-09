@@ -7,8 +7,11 @@ import {NewPopup} from "./NewPopup/NewPopup";
 
 export const News = () => {
 
-    let location = useLocation();
-    let background = location.state && location.state.background;
+    let location = useLocation()
+    let background = location.state && location.state.background
+
+    /* off scroll in open modal window */
+    background ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'auto'
 
     return (
         <div className={style.news}>

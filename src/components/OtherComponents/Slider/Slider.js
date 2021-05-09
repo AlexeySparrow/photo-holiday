@@ -8,7 +8,7 @@ import style from "./Slider.module.scss";
 
 SwiperCore.use([Pagination, Navigation]);
 
-export const Slider = ({items}) => {
+export const Slider = ({items, height}) => {
     return (
         <>
             <Swiper
@@ -16,6 +16,7 @@ export const Slider = ({items}) => {
                 navigation={true}
                 loop={true}
                 className={style.slider}
+                style={{height: height}}
             >
                 {
                     items.map((item, idx) =>

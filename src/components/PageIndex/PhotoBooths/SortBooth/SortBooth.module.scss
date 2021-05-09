@@ -1,0 +1,18 @@
+@import "../../../../assets/scss/mixins";
+@import "../../../../assets/scss/variables";
+
+.sort {
+  @include size(100%, auto);
+  @include flex(row, flex-start, stretch, wrap);
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+
+  select {
+    margin-left: 5px;
+    border: none;
+    color: $colorClassLightGrey;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

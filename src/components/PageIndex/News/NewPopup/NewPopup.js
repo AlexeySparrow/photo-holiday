@@ -17,7 +17,7 @@ export const NewPopup = () => {
         <div className={style.container}>
             {
                 <div className={style.popup}>
-                    <Slider items={item.gallery}/>
+                    <Slider items={item.gallery} height="65%"/>
                     <div className={style.popup__text}>
                         <span>
                             <p className="colorTitle">{item.galleryName}</p>
