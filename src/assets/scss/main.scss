@@ -46,9 +46,7 @@ h4 {
 
 p {
   &.grey {
-    font-size: 12px;
     font-weight: 500;
-    line-height: 14px;
     color: $colorClassGrey;
   }
 
@@ -58,11 +56,16 @@ p {
     line-height: 18px;
     color: $colorClassLightGrey;
   }
-}
 
-.container {
-  @include size(100%, auto);
-  padding: 0 16px;
+  &.colorTitle {
+    font-weight: 500;
+    color: $colorMainElementsAndExcretion;
+  }
+
+  span {
+    color: $colorMainElementsAndExcretion;
+    text-decoration: underline;
+  }
 }
 
 .inputCheckbox {
@@ -105,3 +108,92 @@ p {
 svg {
   fill: $colorMainElementsAndExcretion;
 }
+
+button {
+  background: $colorMainElementsAndExcretion;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid $colorMainElementsAndExcretion;
+  border-radius: 6px;
+  font-family: Roboto, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: $colorButton;
+
+  &:active {
+    background: $colorButton;
+    color: $colorMainElementsAndExcretion;
+  }
+
+  &.backWhite {
+    background: $colorButton;
+    color: $colorMainElementsAndExcretion;
+
+    &:active {
+      background: $colorMainElementsAndExcretion;
+      color: $colorButton;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    @include size(100%, auto);
+    padding: 0 16px;
+  }
+
+  button {
+    @include size(100%, auto);
+  }
+}
+
+/* slider */
+
+.swiper-pagination-progressbar {
+  padding: 0;
+  width: 20%!important;
+  top: unset!important;
+  bottom: 0;
+  left: 50%!important;
+  transform: translateX(-50%);
+  z-index: 20;
+  border-radius: 10px;
+  overflow: hidden;
+
+  span {
+    background: $colorMainElementsAndExcretion!important;
+    border-radius: 10px;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @include size(40px, 40px);
+  background: rgba(0,0,0,0.5);
+  padding: 0;
+
+  &:after {
+    font-size: 18px;
+    color: #fff;
+  }
+}
+
+.swiper-button-next {
+  right: -10px;
+}
+
+.swiper-button-prev {
+  left: -10px;
+}
+
+.swiper-wrapper {
+  @include size(100%, 95%);
+  padding: 0;
+
+  .swiper-slide {
+    @include size(100%, 100%);
+    padding: 0;
+  }
+}
+

@@ -1,0 +1,13 @@
+@import "../../../assets/scss/mixins";
+
+div.slider {
+  @include size(100%, 65%);
+  padding: 0;
+
+  img {
+    @include size(100%, 100%);
+    object-fit: cover;
+  }
+}
+
+

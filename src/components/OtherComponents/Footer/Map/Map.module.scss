@@ -1,0 +1,7 @@
+@import "../../../../assets/scss/mixins";
+
+.map {
+  @include size(100%, 360px);
+  margin-top: 20px;
+  border: none;
+}

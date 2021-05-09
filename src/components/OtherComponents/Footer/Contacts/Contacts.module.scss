@@ -1,0 +1,29 @@
+@import "../../../../assets/scss/mixins";
+@import "../../../../assets/scss/variables";
+
+.contact {
+  @include size(100%, auto);
+  @include flex(row, space-between, flex-start, nowrap);
+  margin-top: 20px;
+
+  div {
+    @include size(88%, auto);
+  }
+
+  p {
+    font-family: RobotoSlab, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  a {
+    font-size: 18px;
+    line-height: 21px;
+    color: $colorClassGrey;
+
+    &:hover {
+      color: $colorMainElementsAndExcretion;
+    }
+  }
+}

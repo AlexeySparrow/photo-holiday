@@ -7,6 +7,7 @@ import {App} from "./App";
 import './assets/scss/_zeroStyle.scss';
 import './assets/scss/main.scss';
 import './assets/scss/_fonts.scss';
+import './assets/scss/_scroll.scss';
 
 ReactDOM.render(
     <React.StrictMode>

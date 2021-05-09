@@ -1,0 +1,58 @@
+@import "../../../../assets/scss/mixins";
+@import "../../../../assets/scss/variables";
+
+.details {
+  @include size(100%, auto);
+  border-radius: 4px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  margin-top: 10px;
+
+  &[open] {
+    background: $colorMainElementsAndExcretion;
+    color: $colorButton;
+    box-shadow: none;
+
+    summary:after {
+      transform: translate(50%, -50%) rotate(90deg);
+      color: $colorButton;
+    }
+
+    p {
+      background: $colorButton;
+      color: $colorMainText;
+      padding: 14px 10px;
+      position: relative;
+
+      &:before {
+        content: '';
+        display: block;
+        @include size(1px, 90%);
+        background: $colorMainElementsAndExcretion;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  summary {
+    list-style: none;
+    position: relative;
+    padding: 14px 10px;
+
+    &:after {
+      content: '‹';
+      font-family: "Times New Roman", serif;
+      font-size: 35px;
+      color: $colorMainElementsAndExcretion;
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%) rotate(-90deg);
+      transform-origin: center center;
+      transition: 0.3s;
+    }
+  }
+}

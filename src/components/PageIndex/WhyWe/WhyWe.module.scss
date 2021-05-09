@@ -1,0 +1,42 @@
+@import "../../../assets/scss/mixins";
+
+.whyWe {
+  @include size(100%, auto);
+  @include flex(row, flex-start, stretch, wrap);
+  margin-top: 10px;
+
+  div {
+    @include flex(column, center, center, nowrap);
+    text-align: center;
+    margin: 10px 0;
+
+    &:nth-child(3) {
+      p {
+        padding: 10px 20px 0;
+      }
+    }
+  }
+
+  p, span {
+    @include size(100%, 50%);
+  }
+
+  span {
+    @include flex(row, center, center, nowrap);
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 10px 30px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .whyWe {
+    div {
+      @include size(50%, auto);
+    }
+  }
+}

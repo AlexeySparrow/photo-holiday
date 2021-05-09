@@ -1,0 +1,57 @@
+@import "../../../../assets/scss/mixins";
+@import "../../../../assets/scss/variables";
+
+.new {
+  @include size(100%, auto);
+  @include flex(row, flex-start, flex-start, wrap);
+
+  a {
+    transition: 0.3s;
+    margin-top: 20px;
+
+    &:hover {
+      box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      @include size(100%, auto);
+      max-height: 328px;
+      object-fit: cover;
+    }
+
+    div {
+      padding: 0 8px 20px;
+      color: $colorMainText;
+      position: relative;
+
+      span {
+        @include size(40px, 40px);
+        background: $colorButton;
+        position: absolute;
+        top: -15px;
+        left: 8px;
+        transform: translateY(-100%);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      }
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 500;
+      margin-top: 20px;
+    }
+
+    h4 {
+      margin: 4px 0 -10px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .new {
+    a {
+      @include size(100%, auto);
+    }
+  }
+}

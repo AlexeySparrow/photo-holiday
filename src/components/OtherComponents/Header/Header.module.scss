@@ -1,0 +1,10 @@
+@import "../../../assets/scss/mixins";
+
+.header {
+  @include size(100%, auto);
+  padding: 10px 0;
+
+  img {
+    @include size(60px, 60px);
+  }
+}

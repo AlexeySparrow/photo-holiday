@@ -1,8 +1,13 @@
 import {combineReducers, createStore} from "redux";
-//пример -  import dialogsReducer from "./dialogsReducer";
+import {mainReducer} from "./redusers/mainReduser";
+import {newsReducer} from "./redusers/newsReduser";
+import {boothReducer} from "./redusers/boothReduser";
+
 
 let reducers = combineReducers({
-    //пример - navigation: navigationReducer,
+    main: mainReducer,
+    news: newsReducer,
+    booth: boothReducer
 });
 
 let store = createStore(reducers);
