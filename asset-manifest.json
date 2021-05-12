@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/photo-holiday/static/css/main.4eb0470d.chunk.css",
-    "main.js": "/photo-holiday/static/js/main.db82ce57.chunk.js",
-    "main.js.map": "/photo-holiday/static/js/main.db82ce57.chunk.js.map",
+    "main.css": "/photo-holiday/static/css/main.62ccbe71.chunk.css",
+    "main.js": "/photo-holiday/static/js/main.15ec33fa.chunk.js",
+    "main.js.map": "/photo-holiday/static/js/main.15ec33fa.chunk.js.map",
     "runtime-main.js": "/photo-holiday/static/js/runtime-main.382d5a48.js",
     "runtime-main.js.map": "/photo-holiday/static/js/runtime-main.382d5a48.js.map",
     "static/css/2.59315d12.chunk.css": "/photo-holiday/static/css/2.59315d12.chunk.css",
-    "static/js/2.a4aabde1.chunk.js": "/photo-holiday/static/js/2.a4aabde1.chunk.js",
-    "static/js/2.a4aabde1.chunk.js.map": "/photo-holiday/static/js/2.a4aabde1.chunk.js.map",
+    "static/js/2.e13932f9.chunk.js": "/photo-holiday/static/js/2.e13932f9.chunk.js",
+    "static/js/2.e13932f9.chunk.js.map": "/photo-holiday/static/js/2.e13932f9.chunk.js.map",
     "index.html": "/photo-holiday/index.html",
     "static/css/2.59315d12.chunk.css.map": "/photo-holiday/static/css/2.59315d12.chunk.css.map",
-    "static/css/main.4eb0470d.chunk.css.map": "/photo-holiday/static/css/main.4eb0470d.chunk.css.map",
-    "static/js/2.a4aabde1.chunk.js.LICENSE.txt": "/photo-holiday/static/js/2.a4aabde1.chunk.js.LICENSE.txt",
+    "static/css/main.62ccbe71.chunk.css.map": "/photo-holiday/static/css/main.62ccbe71.chunk.css.map",
+    "static/js/2.e13932f9.chunk.js.LICENSE.txt": "/photo-holiday/static/js/2.e13932f9.chunk.js.LICENSE.txt",
     "static/media/_fonts.scss": "/photo-holiday/static/media/WorkSans-SemiBold.f1e3a3dd.woff",
     "static/media/back.5906c46c.svg": "/photo-holiday/static/media/back.5906c46c.svg",
     "static/media/donut.24022196.png": "/photo-holiday/static/media/donut.24022196.png",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.382d5a48.js",
     "static/css/2.59315d12.chunk.css",
-    "static/js/2.a4aabde1.chunk.js",
-    "static/css/main.4eb0470d.chunk.css",
-    "static/js/main.db82ce57.chunk.js"
+    "static/js/2.e13932f9.chunk.js",
+    "static/css/main.62ccbe71.chunk.css",
+    "static/js/main.15ec33fa.chunk.js"
   ]
 }
