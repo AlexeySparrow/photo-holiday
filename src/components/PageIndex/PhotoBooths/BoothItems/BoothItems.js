@@ -27,10 +27,11 @@ export const BoothItems = () => {
                             <p>Размер:</p>
                             <p className='grey'>{item.size}</p>
                         </span>
-                        <BoothOptions data={item.options} itemId={item.id}/>
-                        <BoothTime itemId={item.id}/>
+                        <BoothOptions data={item.options} itemId={item.id} sum={item.sumPrice}/>
+                        <BoothTime itemId={item.id} price={item.price}/>
                         <span className={style.boothItem__price}>
-                            <h2>{item.price} ₽</h2>
+                            {/*<h2>{!item.sumPrice ? 'от ' + item.price : item.sumPrice} ₽</h2>*/}
+                            {console.log(item.sumPrice)}
                             <button>Оставить заявку</button>
                         </span>
                     </div>

@@ -1,14 +1,18 @@
-import React from "react";
+import React, {useCallback} from "react";
 import style from "./BoothTime.module.scss";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
+import {setSumPrice} from "../../../../../store/redusers/boothReduser";
 
-export const BoothTime = ({itemId}) => {
+export const BoothTime = ({itemId, price}) => {
+    const dispatch = useDispatch()
 
     const inputs = useSelector(state => state.booth.boothTime)
+    const setSum = useCallback((number, id) => dispatch(setSumPrice(number, id)), [dispatch])
 
     const getTimeValue = (event) => {
-        let value = event.target.value
-        console.log(value)
+        let value = event.target.value * price
+
+        setSum([{time: value}], itemId)
     }
 
     return (
