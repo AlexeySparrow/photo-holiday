@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photo-holiday/static/css/main.62ccbe71.chunk.css",
-    "main.js": "/photo-holiday/static/js/main.15ec33fa.chunk.js",
-    "main.js.map": "/photo-holiday/static/js/main.15ec33fa.chunk.js.map",
+    "main.js": "/photo-holiday/static/js/main.0f3997a4.chunk.js",
+    "main.js.map": "/photo-holiday/static/js/main.0f3997a4.chunk.js.map",
     "runtime-main.js": "/photo-holiday/static/js/runtime-main.382d5a48.js",
     "runtime-main.js.map": "/photo-holiday/static/js/runtime-main.382d5a48.js.map",
     "static/css/2.59315d12.chunk.css": "/photo-holiday/static/css/2.59315d12.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.59315d12.chunk.css",
     "static/js/2.e13932f9.chunk.js",
     "static/css/main.62ccbe71.chunk.css",
-    "static/js/main.15ec33fa.chunk.js"
+    "static/js/main.0f3997a4.chunk.js"
   ]
 }
