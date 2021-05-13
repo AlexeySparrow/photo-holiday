@@ -1,4 +1,4 @@
-##PHOTO HOLIDAY
+## PHOTO HOLIDAY
 ### https://alexeysparrow.github.io/photo-holiday/
 ### Тех. задание:
 - Сверстать только под мобильный телефон, max-width: 375px (по макету из Figma)
