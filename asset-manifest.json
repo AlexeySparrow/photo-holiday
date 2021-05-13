@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/photo-holiday/static/css/main.ecde5ac6.chunk.css",
-    "main.js": "/photo-holiday/static/js/main.c3e93726.chunk.js",
-    "main.js.map": "/photo-holiday/static/js/main.c3e93726.chunk.js.map",
+    "main.css": "/photo-holiday/static/css/main.b939f615.chunk.css",
+    "main.js": "/photo-holiday/static/js/main.1dc3ff05.chunk.js",
+    "main.js.map": "/photo-holiday/static/js/main.1dc3ff05.chunk.js.map",
     "runtime-main.js": "/photo-holiday/static/js/runtime-main.382d5a48.js",
     "runtime-main.js.map": "/photo-holiday/static/js/runtime-main.382d5a48.js.map",
     "static/css/2.59315d12.chunk.css": "/photo-holiday/static/css/2.59315d12.chunk.css",
-    "static/js/2.57be194b.chunk.js": "/photo-holiday/static/js/2.57be194b.chunk.js",
-    "static/js/2.57be194b.chunk.js.map": "/photo-holiday/static/js/2.57be194b.chunk.js.map",
+    "static/js/2.70199419.chunk.js": "/photo-holiday/static/js/2.70199419.chunk.js",
+    "static/js/2.70199419.chunk.js.map": "/photo-holiday/static/js/2.70199419.chunk.js.map",
     "index.html": "/photo-holiday/index.html",
     "static/css/2.59315d12.chunk.css.map": "/photo-holiday/static/css/2.59315d12.chunk.css.map",
-    "static/css/main.ecde5ac6.chunk.css.map": "/photo-holiday/static/css/main.ecde5ac6.chunk.css.map",
-    "static/js/2.57be194b.chunk.js.LICENSE.txt": "/photo-holiday/static/js/2.57be194b.chunk.js.LICENSE.txt",
+    "static/css/main.b939f615.chunk.css.map": "/photo-holiday/static/css/main.b939f615.chunk.css.map",
+    "static/js/2.70199419.chunk.js.LICENSE.txt": "/photo-holiday/static/js/2.70199419.chunk.js.LICENSE.txt",
     "static/media/_fonts.scss": "/photo-holiday/static/media/WorkSans-SemiBold.f1e3a3dd.woff",
     "static/media/back.5906c46c.svg": "/photo-holiday/static/media/back.5906c46c.svg",
-    "static/media/donut.24022196.png": "/photo-holiday/static/media/donut.24022196.png",
     "static/media/map.8441e2f6.svg": "/photo-holiday/static/media/map.8441e2f6.svg",
     "static/media/phone.aadd686b.svg": "/photo-holiday/static/media/phone.aadd686b.svg",
     "static/media/play.d8c552f3.svg": "/photo-holiday/static/media/play.d8c552f3.svg",
-    "static/media/video.7c80e111.jpg": "/photo-holiday/static/media/video.7c80e111.jpg"
+    "static/media/video.52de6ede.jpg": "/photo-holiday/static/media/video.52de6ede.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.382d5a48.js",
     "static/css/2.59315d12.chunk.css",
-    "static/js/2.57be194b.chunk.js",
-    "static/css/main.ecde5ac6.chunk.css",
-    "static/js/main.c3e93726.chunk.js"
+    "static/js/2.70199419.chunk.js",
+    "static/css/main.b939f615.chunk.css",
+    "static/js/main.1dc3ff05.chunk.js"
   ]
 }
