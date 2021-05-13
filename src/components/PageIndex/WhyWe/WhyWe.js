@@ -12,7 +12,7 @@ export const WhyWe = () => {
                 data.map(item =>
                     <div key={item.id}>
                         <span>
-                            <img src={item.icon} alt={item.title} loading="lazy"/>
+                            <img src={item.icon} alt={item.title}/>
                         </span>
                         <p>{item.title}</p>
                     </div>

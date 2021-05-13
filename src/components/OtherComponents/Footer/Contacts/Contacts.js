@@ -7,14 +7,14 @@ export const Contacts = () => {
     return (
         <>
             <div className={style.contact}>
-                <img src={phoneImg} alt="phone" loading="lazy"/>
+                <img src={phoneImg} alt="phone"/>
                 <div>
                     <p>Телефон</p>
                     <a href="tel:74951234567">+7 495 123 45 67</a>
                 </div>
             </div>
             <div className={style.contact}>
-                <img src={addressImg} alt="address" loading="lazy"/>
+                <img src={addressImg} alt="address"/>
                 <div>
                     <p>Адрес</p>
                     <a href="https://goo.gl/maps/9npRD3wYyYqh76N47" target="_blank" rel="noreferrer">
@@ -23,7 +23,7 @@ export const Contacts = () => {
                 </div>
             </div>
             <div className={style.contact}>
-                <img alt="" loading="lazy"/>
+                <img alt=""/>
                 <div>
                     <p>Почта</p>
                     <a href="mailto:Info@test.ru">Info@test.ru</a>

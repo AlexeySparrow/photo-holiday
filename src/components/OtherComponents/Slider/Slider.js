@@ -21,7 +21,7 @@ export const Slider = ({items, height}) => {
                 {
                     items.map((item, idx) =>
                         <SwiperSlide key={idx}>
-                            <img src={item} alt="slide" loading="lazy"/>
+                            <img src={item} alt="slide"/>
                         </SwiperSlide>
                     )
                 }
