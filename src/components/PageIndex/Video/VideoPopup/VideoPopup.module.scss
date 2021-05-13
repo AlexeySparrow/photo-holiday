@@ -1,20 +1,10 @@
 @import "../../../../assets/scss/mixins";
 
-.container {
-  @include size(100%, 100vh);
-  @include flex(row, center, center, nowrap);
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
+.video__youtube {
+  @include size(90%, 50%);
+  position: relative;
 
-  .video__youtube {
-    @include size(90%, 50%);
-    position: relative;
-
-    iframe {
-      @include size(100%, 100%);
-    }
+  iframe {
+    @include size(100%, 100%);
   }
 }

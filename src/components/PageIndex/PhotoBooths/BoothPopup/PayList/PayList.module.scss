@@ -1,0 +1,19 @@
+@import "../../../../../assets/scss/mixins";
+
+.list {
+  margin-top: 20px;
+  max-height: 30vh;
+  overflow-y: auto;
+
+  span{
+    @include flex(row,space-between, center, nowrap);
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 30px;
+  }
+
+  span:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+

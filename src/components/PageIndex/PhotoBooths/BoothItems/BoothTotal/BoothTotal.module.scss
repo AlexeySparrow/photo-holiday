@@ -1,0 +1,11 @@
+@import "../../../../../assets/scss/templates";
+
+span.boothItem__price {
+  margin-top: 20px;
+
+  a {
+    @extend %button;
+  }
+}
+
+

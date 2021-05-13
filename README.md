@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+##PHOTO HOLIDAY
+### https://alexeysparrow.github.io/photo-holiday/
+### Тех. задание:
+- Сверстать только под мобильный телефон, max-width: 375px (по макету из Figma)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Блок с видео:
+  - при нажатии должно открываться любое видео из youtube в модальном окне с возможностью закрытия окна и остановки видео.
+- Карточки фотобудок:
+  - копируем на странице в количестве 20 шт
+  - цены увеличиваем у каждой на 100 руб от предыдущей  
+  - в названии добавляем номер в конце (например: Фотобудка с ширмой #1, Фотобудка с ширмой #2)
+  - в карточке по фотобудкам есть доп. опции, добавлем 20 шт и цены увеличиваем у каждой на 100 руб от предыдущей, в названии добавляем номер опции в конце (например: Разработка макета рамки #1, Разработка макета рамки #2)
+  - контейнер опций фиксируется по высоте, можно скролить вверх вниз
+  - если выбрать опцию, то итоговая цена карточки увеличится на сумму данной опции. Можно выбрать все опции
+  - фотографии добавляем в количестве 5шт, которые можно листать вправо влево
+  - сделать сортировку карточек по цене: по возрастанию и убыванию  
+- Карточки новостей:
+  - копируем на странице в количестве 20 шт
+  - показываем только 3шт, по нажатию на кнопку “показать еще” подгружаются следующие 3 шт, как только подгрузятся все карточки убираем кнопку "показать еще"
+  - если нажать на новость то откроется модальное окно, в котором надо добавить 5 одних и тех же фотографий, которые можно листать вправо влево
+  - если текст не влазеет как в макете, то он должен скролится в своем контейнере 
+- Окно заказа:
+  - после нажатия кнопки "оставить заявку" отркывается модальное окно, в котором выведены все опции, которые клиент выбрал
+  - должна быть возможность менять количество дней у фотобудки с ширмой, соотвественно будет менятся и итоговая цена
+  - по нажатию на кнопку “Отправить заявку” и крестик в правом верхнем углу модальное окно закрывается
+  - сделать маску ввода телефона
+- Доп:
+  - не испольуем jQuery
+  - google pagespeed должен показывать на мобилке 90+
+    
+----------------
+### Сделано дополнительно:
+  - технологии: React, Redux, Axios, SASS(SCSS), React Hooks
+  - составлена JSON база данных, на основании макета   

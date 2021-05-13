@@ -4,6 +4,7 @@ import {TitleItem} from "../../OtherComponents/TitleItem/TitleItem";
 import {New} from "./New/New";
 import {Route, useLocation} from "react-router-dom";
 import {NewPopup} from "./NewPopup/NewPopup";
+import {Popup} from "../../OtherComponents/Popup/Popup";
 
 export const News = () => {
 
@@ -17,7 +18,12 @@ export const News = () => {
         <div className={style.news}>
             <TitleItem title="Новости" text="Почему выбирают нас?"/>
             <New/>
-            {background && <Route path="/photo-holiday/news/:id" children={<NewPopup/>}/>}
+
+            {background && <Route path="/photo-holiday/news/:id" children={
+               <Popup>
+                   <NewPopup/>
+               </Popup>
+            }/>}
         </div>
     )
 }

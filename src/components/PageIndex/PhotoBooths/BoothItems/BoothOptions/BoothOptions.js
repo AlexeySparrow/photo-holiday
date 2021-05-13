@@ -1,28 +1,14 @@
-import React, {useCallback, useEffect} from "react";
+import React, {useCallback} from "react";
 import style from "./BoothOptions.module.scss";
-import {useDispatch, useSelector} from "react-redux";
-import {setCheckOption, setSumPrice} from "../../../../../store/redusers/boothReduser";
+import {useDispatch} from "react-redux";
+import {setCheckOption} from "../../../../../store/redusers/boothReduser";
 
-export const BoothOptions = ({data, itemId, sum}) => {
+export const BoothOptions = ({data, itemId}) => {
     const dispatch = useDispatch()
 
     /* toggle checked checkbox */
     const toggleChecked =
         useCallback((check, idData, idCheck) => dispatch(setCheckOption(check, idData, idCheck)), [dispatch])
-
-    /* add option in sumPrice */
-    const setSum = useCallback((number, id) => dispatch(setSumPrice(number, id)), [dispatch])
-
-    useEffect(() => {
-        const filterItemCheck = () => {
-            let a = data.filter(item => item.check === true).map(item => item.price)
-            let total = (a.length > 0) ? a.reduce((a, b) => a + b) : 0
-
-            setSum([{option: total}], itemId)
-        }
-
-        filterItemCheck()
-    }, [data, itemId, setSum])
 
     /* toggle checkbox */
 

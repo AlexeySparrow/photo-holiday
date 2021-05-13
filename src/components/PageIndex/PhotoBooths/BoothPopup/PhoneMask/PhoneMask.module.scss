@@ -1,0 +1,28 @@
+@import "../../../../../assets/scss/mixins";
+@import "../../../../../assets/scss/variables";
+
+.mask {
+  @include size(100%, auto);
+  position: relative;
+  margin-bottom: 10px;
+
+  input {
+    @include size(100%, auto);
+    padding: 10px 45% 10px 10px;
+    border-radius: 6px;
+    border: 1px solid $colorMainElementsAndExcretion;
+    font-size: 16px;
+  }
+
+  select {
+    @include size(43%, 85%);
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    border-radius: 6px;
+    border: none;
+    background: #F5F5F5;
+    padding-left: 10px;
+  }
+}

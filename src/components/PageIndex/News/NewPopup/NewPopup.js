@@ -14,21 +14,17 @@ export const NewPopup = () => {
     if (!item) return null;
 
     return (
-        <div className={style.container}>
-            {
-                <div className={style.popup}>
-                    <Slider items={item.gallery} height="65%"/>
-                    <div className={style.popup__text}>
-                        <span>
-                            <p className="colorTitle">{item.galleryName}</p>
-                            <p className="grey">{item.date}</p>
-                        </span>
-                        <h3>{item.title} №{item.id}</h3>
-                        <p>{item.text}</p>
-                    </div>
-                    <ButtonBack/>
-                </div>
-            }
+        <div className={style.popup}>
+            <Slider items={item.gallery} height="65%"/>
+            <div className={style.popup__text}>
+                <span>
+                    <p className="colorTitle">{item.galleryName}</p>
+                    <p className="grey">{item.date}</p>
+                </span>
+                <h3>{item.title} №{item.id}</h3>
+                <p>{item.text}</p>
+            </div>
+            <ButtonBack/>
         </div>
     )
 }

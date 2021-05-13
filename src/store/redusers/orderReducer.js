@@ -1,8 +1,9 @@
 const PHONE = 'PHONE'
-
+const SELECT_VALUE = 'SELECT_VALUE'
 
 let initialState = {
-    phone: ''
+    phone: '',
+    selectValue: 'yes'
 }
 
 export const orderReducer = (state = initialState, action) => {
@@ -13,9 +14,15 @@ export const orderReducer = (state = initialState, action) => {
                 ...state,
                 phone: action.phone
             }
+        case SELECT_VALUE:
+            return {
+                ...state,
+                selectValue: action.selectValue
+            }
         default:
             return state;
     }
 }
 
 export const setPhone = (phone) => ({type: PHONE, phone})
+export const setSelectValue = (selectValue) => ({type: SELECT_VALUE, selectValue})

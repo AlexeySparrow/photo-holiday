@@ -1,0 +1,23 @@
+@import "variables";
+
+// ---------- templates ----------
+
+%button {
+  width: 100%;
+  display: block;
+  background: $colorMainElementsAndExcretion;
+  padding: 10px;
+  border: 1px solid $colorMainElementsAndExcretion;
+  border-radius: 6px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: $colorButton;
+  text-align: center;
+
+  &:active {
+    background: $colorButton;
+    color: $colorMainElementsAndExcretion;
+  }
+}

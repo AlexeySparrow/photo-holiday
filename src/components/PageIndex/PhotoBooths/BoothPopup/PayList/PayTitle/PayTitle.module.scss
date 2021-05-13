@@ -1,0 +1,18 @@
+@import "../../../../../../assets/scss/mixins";
+
+.title {
+  @include flex(row,space-between, center, nowrap);
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 30px;
+
+  div {
+    span {
+      display: flex;
+      font-weight: 500;
+      p {
+        margin-right: 5px;
+      }
+    }
+  }
+}
