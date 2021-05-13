@@ -21,7 +21,7 @@ export const New = () => {
             {
                 data.map(item =>
                     <Link key={item.id} to={{pathname: `/photo-holiday/news/${item.id}`, state: { background: location }}}>
-                        <img src={item.titleImage} alt={item.title}/>
+                        <img src={item.titleImage} alt={item.title} loading="lazy"/>
                         <div>
                             <p className="colorTitle">{item.type}</p>
                             <h4>{item.title} №{item.id}</h4>

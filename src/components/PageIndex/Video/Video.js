@@ -16,13 +16,13 @@ export const Video = () => {
     return (
         <div className={style.video}>
             <Link to={{pathname: `/photo-holiday/video`, state: {background: location}}}>
-                <img src={videoImg} alt="video"/>
+                <img src={videoImg} alt="video" loading="lazy"/>
                 <span>
                     <img src={playImg} alt="play"/>
                 </span>
             </Link>
-            <img src={donutImg} alt="o" className={style.video__donut}/>
-            <img src={dotsImg} alt="." className={style.video__dots}/>
+            <img src={donutImg} alt="o" className={style.video__donut} loading="lazy"/>
+            <img src={dotsImg} alt="." className={style.video__dots} loading="lazy"/>
 
             {background && <Route path="/photo-holiday/video" children={
                 <Popup>

@@ -25,7 +25,7 @@ export const BoothOptions = ({data, itemId}) => {
                 {
                     data.map(item =>
                         <div className={style.options__item} key={item.id}>
-                            <img src={item.img} alt="img"/>
+                            <img src={item.img} alt="img" loading="lazy"/>
                             <div className={style.options__itemTitle}>
                                 <p>{item.title} №{item.id}</p>
                                 <p className="colorTitle">{item.price} ₽</p>
